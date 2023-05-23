@@ -23,10 +23,12 @@
 
 .Fleft{
     float: left;
+    padding: 4px;
 }
 
 .Fright{
     float: right;
+    padding: 4px;
 }
 
 footer{
@@ -98,4 +100,9 @@ table{
 
 .imgCentrar img{
     padding: 10px;
+}
+
+.justificado{
+    text-align: justify;
+    padding: 3px;
 }
