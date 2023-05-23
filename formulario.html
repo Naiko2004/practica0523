@@ -1,0 +1,73 @@
+<!doctype html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Formulario</title>
+    <link rel="stylesheet" href="estilos.css">
+</head>
+<body class="fondoContaco">
+<header>
+  <h2 class="centrar">Formulario de contacto:</h2>
+</header>
+
+<section>
+  <form>
+    <ul class="sinPunto">
+      <li>
+                  <span>
+                 Nombre: <input type="text" name="nombre" placeholder="Su nombre" required> <span class="rojo">*</span>
+                 </span>
+      </li>
+      <li>
+                        <span>
+                DNI: <input type="number" name="dni" placeholder="Su DNI" required> <span class="rojo">*</span>
+              </span>
+      </li>
+      <li>
+                        <span>
+                Email: <input type="email" name="email" placeholder="Su Email" required> <span class="rojo">*</span>
+              </span>
+      </li>
+      <li>
+                        <span>
+                Edad: <input type="number" name="edad" placeholder="Su edad">
+              </span>
+      </li>
+      <li>
+                        <span>
+                Pais: <select name="pais">
+                        <option value="" selected = "selected" hidden="hidden" ></option>
+                        <option value="1">Colombia</option>
+                        <option value="2">Chile</option>
+                        <option value="3">Argentina</option>
+                        <option value="4">Venezuela</option>
+              </select>
+              </span>
+      </li>
+      <li>
+                  <span>
+                Idiomas:
+                  <input type="checkbox" name="idioma" value="ingles"> Ingles
+                  <input type="checkbox" name="idioma" value="español"> Español
+                  <input type="checkbox" name="idioma" value="italiano"> Italiano
+                </span>
+      </li>
+    </ul>
+
+    <div class="centrar">
+      <button id="bFormulario" class="boton">Enviar</button>
+    </div>
+
+  </form>
+
+</section>
+
+<footer>
+  <a href="index.html" class="resaltar">Volver</a>
+</footer>
+
+</body>
+</html>

@@ -1,0 +1,101 @@
+.logo{
+    float: left;
+}
+
+.clearFix::after{
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.centrar{
+    text-align: center;
+}
+
+.fondoIndex{
+    background-color: darkgoldenrod;
+    font-family: "Century Schoolbook L";
+}
+
+.encuadrado{
+    border: 5px solid red;
+}
+
+.Fleft{
+    float: left;
+}
+
+.Fright{
+    float: right;
+}
+
+footer{
+    text-align: center;
+}
+
+table{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.right{
+    position: relative;
+    right: -500px;
+    padding: 10px;
+}
+
+.left{
+    position: relative;
+    right: 500px;
+    padding: 10px;
+}
+
+.boton{
+    text-align: center;
+    border: none;
+    color: white;
+    background-color: darkred;
+    min-width: 120px;
+    min-height: 30px;
+}
+
+.sinPunto{
+    list-style-type: none;
+    display: block;
+    margin-left: 500px;
+}
+
+.rojo{
+    color: red;
+}
+
+.fondoContaco{
+    background-image: url("Imagenes/imagen1.jpg");
+    background-size: 1380px;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    color: white;
+    font-family: "Century Schoolbook L";
+}
+
+.resaltar{
+    color: white;
+}
+
+.fondoMulti{
+
+    font-family: "Century Schoolbook L";
+    color: white;
+    background-color: darkgreen;
+}
+
+.imgCentrar{
+    display: flex;
+    justify-content: center;
+}
+
+.imgCentrar img{
+    padding: 10px;
+}
